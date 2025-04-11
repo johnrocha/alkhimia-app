@@ -1,0 +1,6 @@
+<template>
+  <NuxtPage />
+</template>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+</style>
