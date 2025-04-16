@@ -20,9 +20,7 @@
           />
         </div>
         <div class="md:w-1/2 antiga">
-          <h2 class="text-3xl font-bold mb-4 text-yellow-400">
-            Jornada
-          </h2>
+          <h2 class="text-3xl font-bold mb-4 text-yellow-400">Jornada</h2>
           <p class="text-lg">
             Você acaba de atravessar as portas do conhecimento oculto. Aqui,
             alquimistas, magos e buscadores do saber ancestral encontram
@@ -49,9 +47,9 @@
             A Magia é aquele pequeno movimento, o simples gesto do seu olhar
             acompanhando as letras. Sua respiração fluindo naturalmente, o
             tremular do gesto do sorriso. O parar, o desacelerar. A sua presença
-            é uma fonte de luz, uma fonte de sabedoria. Ser. Sentir da sua
-            presença.Sentir a presença do ambiente atravessando todo seu Ser. A
-            Magia é entender as forças que regem estes mecânismos. E criar.
+            é uma fonte de luz, uma fonte de sabedoria. Sentir sua presença. E
+            sentir a presença do ambiente atravessando todo seu Ser. A Magia é
+            entender as forças que regem estes mecânismos. E criar.
           </p>
         </div>
       </section>
@@ -68,21 +66,23 @@
           <h2 class="text-3xl font-bold mb-4 text-yellow-400">Objetivo</h2>
           <div class="text-lg mb-4">
             Tudo está aqui. Para ser feito. Tudo está almejando existir. Dentro
-            de nós pulsam as forças que regem este mundo.
-
-            Para algo existir e ser louvávelmente imprescindível assim como é 
-            necessário a água para saciar a sede ela deve haver:
-            <br><br>
-            <div class="antiga-bold">Equilíbrio:</div> 
-            Condição de ajuste em que diferentes forças ou elementos se compensam.
-            <br><br>
+            de nós pulsam as forças que regem este mundo. Para algo existir e
+            ser louvávelmente imprescindível assim como é necessário a água para
+            saciar a sede ela deve haver:
+            <br /><br />
+            <div class="antiga-bold">Equilíbrio:</div>
+            Condição de ajuste em que diferentes forças ou elementos se
+            compensam.
+            <br /><br />
             <p class="antiga-bold">Harmonia:</p>
             Combinação agradável, coerente e integrada de diferentes elementos.
           </div>
         </div>
       </section>
 
-      <section class="flex flex-col items-center justify-center py-12 text-center">
+      <section
+        class="flex flex-col items-center justify-center py-12 text-center"
+      >
         <div class="max-w-3xl px-4 antiga">
           <h2 class="text-3xl font-bold mb-8 text-yellow-400">
             Sagrada artes ocultas
@@ -111,9 +111,7 @@
           />
         </div>
         <div class="md:w-1/2 antiga">
-          <h2 class="text-3xl font-bold mb-4 text-yellow-400">
-             Metodologia
-          </h2>
+          <h2 class="text-3xl font-bold mb-4 text-yellow-400">Metodologia</h2>
           <ul class="list-disc pl-5 space-y-2 text-lg">
             <li>Acesso pessoal</li>
             <li>Biblioteca</li>
@@ -173,14 +171,12 @@
         </div>
         <div class="md:w-1/2 antiga">
           <h2 class="text-3xl font-bold mb-4 text-yellow-400">Me invoque</h2>
-          <p class="text-lg mb-4">
-            Me contate para agendar leitura e afins.
-          </p>
+          <p class="text-lg mb-4">Me contate para agendar leitura e afins.</p>
           <a
             href="/contact"
-            class="inline-block px-6 py-3 bg-yellow-400 text-black font-bold rounded hover:bg-yellow-300 transition-colors duration-300"
+            class="inline-block px-6 py-3 bg-yellow-400 text-black font-bold rounded hover:bg-[#002fa7] hover:text-white hover:shadow-[0_0_15px_5px_rgba(234,179,8,0.5)] transition-all duration-300"
           >
-            Enviar Mensagem
+            Iniciar
           </a>
         </div>
       </section>
