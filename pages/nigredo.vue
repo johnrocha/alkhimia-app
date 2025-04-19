@@ -1,8 +1,8 @@
 <template>
-  <main class="container mx-auto px-4 py-8">
+  <main class="container mx-auto px-4 space-y-16 py-8">
     <section class="flex justify-center py-9">
       <img
-        src="../assets/images/nigredo.png"
+        src="../assets/images/nigredo-head.png"
         alt="Círculo Alquímico"
         class="w-auto h-auto hover:scale-105 transition-transform duration-500 ease-in-out"
       />
@@ -11,14 +11,25 @@
       class="flex flex-col items-center justify-center py-12 text-center"
     >
       <div class="max-w-3xl px-4 antiga">
-        <h2 class="text-3xl font-bold mb-8 text-yellow-400">Tratado Alkhimico: 1° Princípio ♄</h2>
+        <h2 class="text-5xl font-bold mb-8 text-yellow-400">
+          Nigredo
+        </h2>
       </div>
     </section>
+
     <section class="flex flex-col md:flex-row items-center gap-8">
-      <div class="antiga">
-        <p class="text-3xl antiga text-left">
+      <div class="md:w-1/2">
+        <img
+          src="../assets/images/nigredo.png"
+          alt="Introdução"
+          class="w-full rounded-lg shadow-lg hover:scale-105 transition-transform duration-500"
+        />
+      </div>
+      <div class="md:w-1/2 antiga">
+        <h2 class="text-3xl font-bold mb-4 text-yellow-400">Princípio 1</h2>
+        <p class="text-lg">
           Saturnia respira rarefeito, vê ao longe o sopro sagrado aumentando se
-          tornando um tufão de fogo, a luz incandescente tão brilhante como raio
+          tornando um vendaval de fogo, a luz incandescente tão brilhante como raio
           que ricocheteia a derme da Mãe dos Filósofos aumenta seu fogo se
           vertendo em um vórtice nutrindo o centro da espiral dourada. O peso do
           primeiro começa se consumar em explosões internas com a aproximação do
@@ -36,9 +47,6 @@
           entre si, Ela reconheceu. Concentração, Harmonia, Foco e Vontade. A um
           passo de ☿️.
         </p>
-        <h2 class="antiga-bold text-yellow-400 mb-4 text-right text-sm">
-          - Alquimista Luria
-        </h2>
       </div>
     </section>
   </main>

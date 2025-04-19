@@ -165,7 +165,7 @@
           ref="gradient"
           class="text-5xl antiga-bold mb-2 shadow-lg hover:scale-105 transition-transform duration-300"
         >
-          <NuxtLink to="/home"> Mystical Alchemy </NuxtLink>
+          <NuxtLink to="/"> Mystical Alchemy </NuxtLink>
         </h1>
       </div>
     </header>

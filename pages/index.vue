@@ -42,7 +42,7 @@
               <li class="mb-2">
                 <NuxtLink
                   to="/nigredo"
-                  class="block font-bold antiga text-white px-4 py-2 rounded transition-transform duration-300 hover:scale-105 hover:bg-[#002fa7] hover:text-white hover:shadow-[0_0_15px_5px_rgba(234,179,8,0.5)]"
+                  class="block font-bold antiga text-white px-4 py-2 rounded transition-transform duration-300 hover:scale-105 "
                 >
                   Nigredo - <span class="text-yellow-400">Putrefação</span>
                 </NuxtLink>
@@ -50,7 +50,7 @@
               <li class="mb-2">
                 <NuxtLink
                   to="/albedo"
-                  class="block font-bold antiga text-white px-4 py-2 rounded transition-transform duration-300 hover:scale-105 hover:bg-[#002fa7] hover:text-white hover:shadow-[0_0_15px_5px_rgba(234,179,8,0.5)]"
+                  class="block font-bold antiga text-white px-4 py-2 rounded transition-transform duration-300 hover:scale-105"
                 >
                   Albedo - <span class="text-yellow-400">Em Progresso</span>
                 </NuxtLink>
@@ -58,7 +58,7 @@
               <li class="mb-2">
                 <NuxtLink
                   to="/citrinitas"
-                  class="block font-bold antiga text-white px-4 py-2 rounded transition-transform duration-300 hover:scale-105 hover:bg-[#002fa7] hover:text-white hover:shadow-[0_0_15px_5px_rgba(234,179,8,0.5)]"
+                  class="block font-bold antiga text-white px-4 py-2 rounded transition-transform duration-300 hover:scale-105"
                 >
                   Citrinitas - <span class="text-yellow-400">Pendente</span>
                 </NuxtLink>
@@ -66,7 +66,7 @@
               <li class="mb-2">
                 <NuxtLink
                   to="/rubedo"
-                  class="block font-bold antiga text-white px-4 py-2 rounded transition-transform duration-300 hover:scale-105 hover:bg-[#002fa7] hover:text-white hover:shadow-[0_0_15px_5px_rgba(234,179,8,0.5)]"
+                  class="block font-bold antiga text-white px-4 py-2 rounded transition-transform duration-300 hover:scale-105"
                 >
                   Rubedo - <span class="text-yellow-400">Completo</span>
                 </NuxtLink>
