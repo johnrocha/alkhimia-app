@@ -2,9 +2,9 @@
   <div class="min-h-screen bg-black text-white relative">
     <!-- Cabeçalho -->
     <header class="py-6 mb-4">
-      <!-- Navbar -->
+      <!-- Navbar Desktop -->
       <nav
-        class="flex items-center justify-center space-x-8 text-xl antiga mb-4"
+        class="hidden md:flex items-center justify-center space-x-8 text-xl antiga mb-4"
       >
         <NuxtLink
           to="/"
@@ -83,10 +83,86 @@
         </NuxtLink>
       </nav>
 
-      <!-- Título Principal com gradiente animado -->
-      <div class="text-center relative overflow-hidden">
-        <h1 ref="gradient" class="text-5xl antiga-bold mb-2">
+      <!-- Navbar Mobile: Ícone do menu à direita do h1 -->
+      <div class="flex md:hidden items-center justify-center mb-4 relative">
+        <h1 ref="gradient" class="text-3xl antiga-bold mb-0 text-center w-full">
           Mystical Alchemy
+        </h1>
+        <button
+          class="absolute right-4"
+          @click="showMobileMenu = true"
+          aria-label="Abrir menu"
+        >
+          <img
+            src="/favicon.svg"
+            alt="Abrir menu"
+            class="w-10 h-10 ml-2 rounded-full shadow-lg hover:scale-105 transition-transform duration-300"
+          />
+        </button>
+      </div>
+
+      <!-- Menu Mobile Drawer -->
+      <transition name="fade">
+        <div
+          v-if="showMobileMenu"
+          class="fixed inset-0 z-40 flex items-center justify-center md:hidden"
+        >
+          <div
+            class="fixed inset-0 bg-black bg-opacity-60"
+            @click="showMobileMenu = false"
+          ></div>
+          <div
+            class="relative z-50 bg-black bg-opacity-95 p-8 rounded-lg shadow-lg flex flex-col items-center justify-center w-4/5 max-w-xs"
+          >
+            <button
+              class="absolute top-2 right-2 text-yellow-400 text-2xl"
+              @click="showMobileMenu = false"
+              aria-label="Fechar menu"
+            >
+              &times;
+            </button>
+            <ul class="flex flex-col gap-4 text-lg w-full">
+              <li>
+                <NuxtLink
+                  to="/"
+                  class="block text-white font-bold antiga px-4 py-2 rounded transition-transform duration-300 hover:scale-105 hover:bg-yellow-400 hover:text-black text-center"
+                  @click="showMobileMenu = false"
+                  >Home</NuxtLink
+                >
+              </li>
+              <li>
+                <NuxtLink
+                  to="/about"
+                  class="block text-white font-bold antiga px-4 py-2 rounded transition-transform duration-300 hover:scale-105 hover:bg-yellow-400 hover:text-black text-center"
+                  @click="showMobileMenu = false"
+                  >About</NuxtLink
+                >
+              </li>
+              <li>
+                <NuxtLink
+                  to="/articles"
+                  class="block text-white font-bold antiga px-4 py-2 rounded transition-transform duration-300 hover:scale-105 hover:bg-yellow-400 hover:text-black text-center"
+                  @click="showMobileMenu = false"
+                  >Answers</NuxtLink
+                >
+              </li>
+              <li>
+                <NuxtLink
+                  to="/contact"
+                  class="block text-white font-bold antiga px-4 py-2 rounded transition-transform duration-300 hover:scale-105 hover:bg-yellow-400 hover:text-black text-center"
+                  @click="showMobileMenu = false"
+                  >Contact</NuxtLink
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </transition>
+
+      <!-- Título Principal com gradiente animado (desktop) -->
+      <div class="hidden md:block text-center relative overflow-hidden">
+        <h1 ref="gradient" class="text-5xl antiga-bold mb-2 shadow-lg hover:scale-105 transition-transform duration-300">
+          <NuxtLink to="/home"> Mystical Alchemy </NuxtLink>
         </h1>
       </div>
     </header>
@@ -98,18 +174,18 @@
 import { ref, onMounted, onBeforeUnmount } from "vue";
 
 const gradient = ref(null);
+const showMobileMenu = ref(false);
 let animationFrame;
 let step = 0;
 const colorIndices = [0, 1, 2, 3];
 const gradientSpeed = 0.002;
 
 const colors = [
-  [62, 35, 255],
-  [60, 255, 60],
-  [255, 35, 98],
-  [45, 175, 230],
-  [255, 0, 255],
-  [255, 128, 0],
+  [255, 255, 255],   // white
+  [255, 255, 200],   // light yellow
+  [255, 215, 0],     // gold/yellow
+  [255, 165, 0],     // orange
+  [255, 140, 0],     // dark orange
 ];
 
 function updateGradient() {
@@ -158,3 +234,14 @@ onBeforeUnmount(() => {
   cancelAnimationFrame(animationFrame);
 });
 </script>
+
+<style scoped>
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.2s;
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+</style>

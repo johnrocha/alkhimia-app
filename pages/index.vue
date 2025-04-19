@@ -1,29 +1,81 @@
 <template>
   <div class="min-h-screen bg-black text-white relative">
-    <!-- Painel Lateral Gamificado -->
-    <aside
-      class="fixed top-0 right-0 w-64 h-full bg-black bg-opacity-70 p-4 shadow-lg z-10"
+    <!-- Botão para abrir o menu lateral (desktop only) -->
+    <div
+      v-if="!showAside"
+      class="fixed top-4 right-4 z-30 px-2 py-2 shadow transition cursor-pointer hidden md:block"
+      @click="showAside = true"
     >
-      <h2 class="text-xl font-bold mb-4 antiga">Jornada Alkhemica</h2>
-      <ul>
-        <li class="mb-2">
-          <span class="font-bold antiga">Nigredo</span> -
-          <span class="text-yellow-400">Iniciado</span>
-        </li>
-        <li class="mb-2">
-          <span class="font-bold antiga">Albedo</span> -
-          <span class="text-yellow-400">Em Progresso</span>
-        </li>
-        <li class="mb-2">
-          <span class="font-bold antiga">Citrinitas</span> -
-          <span class="text-yellow-400">Pendente</span>
-        </li>
-        <li class="mb-2">
-          <span class="font-bold antiga">Rubedo</span> -
-          <span class="text-yellow-400">Completo</span>
-        </li>
-      </ul>
-    </aside>
+      <img
+        src="../assets/images/journey.png"
+        alt="Ícone Jornada"
+        class="w-20 h-20 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-52 lg:h-52 mb-2 rounded-full shadow-lg hover:scale-105 transition-transform duration-500"
+      />
+    </div>
+
+    <!-- Menu Lateral (Drawer) -->
+    <transition name="fade">
+      <div
+        v-if="showAside"
+        class="fixed inset-0 z-20 flex items-center justify-center"
+      >
+        <!-- Fundo escuro para fechar ao clicar -->
+        <div
+          class="fixed inset-0 bg-black bg-opacity-50"
+          @click="showAside = false"
+        ></div>
+        <!-- Conteúdo centralizado -->
+        <div
+          class="relative z-30 bg-black bg-opacity-90 p-8 rounded-lg shadow-lg flex flex-col items-center justify-center"
+        >
+          <!-- Ícone acima do menu -->
+          <img
+            src="../public/favicon.svg"
+            alt="Ícone Jornada"
+            class="w-72 h-w-72 mb-4 rounded-full shadow-lg hover:scale-105 transition-transform duration-500"
+          />
+          <div class="flex flex-col items-center justify-center text-center">
+            <h2 class="text-xl font-bold mb-4 antiga-bold">
+              Jornada Alkhemica
+            </h2>
+            <ul>
+              <li class="mb-2">
+                <NuxtLink
+                  to="/nigredo"
+                  class="block font-bold antiga text-white px-4 py-2 rounded transition-transform duration-300 hover:scale-105 hover:bg-[#002fa7] hover:text-white hover:shadow-[0_0_15px_5px_rgba(234,179,8,0.5)]"
+                >
+                  Nigredo - <span class="text-yellow-400">Iniciado</span>
+                </NuxtLink>
+              </li>
+              <li class="mb-2">
+                <NuxtLink
+                  to="/albedo"
+                  class="block font-bold antiga text-white px-4 py-2 rounded transition-transform duration-300 hover:scale-105 hover:bg-[#002fa7] hover:text-white hover:shadow-[0_0_15px_5px_rgba(234,179,8,0.5)]"
+                >
+                  Albedo - <span class="text-yellow-400">Em Progresso</span>
+                </NuxtLink>
+              </li>
+              <li class="mb-2">
+                <NuxtLink
+                  to="/citrinitas"
+                  class="block font-bold antiga text-white px-4 py-2 rounded transition-transform duration-300 hover:scale-105 hover:bg-[#002fa7] hover:text-white hover:shadow-[0_0_15px_5px_rgba(234,179,8,0.5)]"
+                >
+                  Citrinitas - <span class="text-yellow-400">Pendente</span>
+                </NuxtLink>
+              </li>
+              <li class="mb-2">
+                <NuxtLink
+                  to="/rubedo"
+                  class="block font-bold antiga text-white px-4 py-2 rounded transition-transform duration-300 hover:scale-105 hover:bg-[#002fa7] hover:text-white hover:shadow-[0_0_15px_5px_rgba(234,179,8,0.5)]"
+                >
+                  Rubedo - <span class="text-yellow-400">Completo</span>
+                </NuxtLink>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </transition>
 
     <!-- Conteúdo Principal -->
     <main class="container mx-auto px-4">
@@ -88,11 +140,37 @@
     <div class="absolute bottom-8 left-8">
       <!-- <img src="/images/candle.png" alt="Vela Tremeluzente" class="w-12 h-12 animate-pulse" /> -->
     </div>
+    <!-- Footer: Botão para abrir o menu lateral (apenas mobile) -->
+    <div
+      v-if="!showAside"
+      class="fixed bottom-4 right-4 z-30 px-2 py-2 shadow transition cursor-pointer block md:hidden"
+      @click="showAside = true"
+    >
+      <img
+        src="../assets/images/journey.png"
+        alt="Ícone Jornada"
+        class="w-16 h-16 sm:w-20 sm:h-20 mb-2 rounded-full shadow-lg hover:scale-105 transition-transform duration-500"
+      />
+    </div>
   </div>
 </template>
 
 <script setup>
+import { ref } from "vue";
+const showAside = ref(false);
+
 function openContent(simbolo) {
   alert(`teste: ${simbolo}`);
 }
 </script>
+
+<style scoped>
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.2s;
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+</style>
