@@ -161,7 +161,10 @@
 
       <!-- Título Principal com gradiente animado (desktop) -->
       <div class="hidden md:block text-center relative overflow-hidden">
-        <h1 ref="gradient" class="text-5xl antiga-bold mb-2 shadow-lg hover:scale-105 transition-transform duration-300">
+        <h1
+          ref="gradient"
+          class="text-5xl antiga-bold mb-2 shadow-lg hover:scale-105 transition-transform duration-300"
+        >
           <NuxtLink to="/home"> Mystical Alchemy </NuxtLink>
         </h1>
       </div>
@@ -181,11 +184,11 @@ const colorIndices = [0, 1, 2, 3];
 const gradientSpeed = 0.002;
 
 const colors = [
-  [255, 255, 255],   // white
-  [255, 255, 200],   // light yellow
-  [255, 215, 0],     // gold/yellow
-  [255, 165, 0],     // orange
-  [255, 140, 0],     // dark orange
+  [255, 255, 255], // white
+  [255, 255, 200], // light yellow
+  [255, 215, 0], // gold/yellow
+  [255, 165, 0], // orange
+  [255, 140, 0], // dark orange
 ];
 
 function updateGradient() {
