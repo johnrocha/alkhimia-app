@@ -44,7 +44,7 @@
                   to="/nigredo"
                   class="block font-bold antiga text-white px-4 py-2 rounded transition-transform duration-300 hover:scale-105 hover:bg-[#002fa7] hover:text-white hover:shadow-[0_0_15px_5px_rgba(234,179,8,0.5)]"
                 >
-                  Nigredo - <span class="text-yellow-400">Iniciado</span>
+                  Nigredo - <span class="text-yellow-400">Putrefação</span>
                 </NuxtLink>
               </li>
               <li class="mb-2">
