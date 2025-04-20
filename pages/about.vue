@@ -3,7 +3,7 @@
     <!-- Imagem central no topo -->
     <section class="flex justify-center py-12">
       <img
-        src="../assets/images/path2.png"
+        src="../assets/images/path.png"
         alt="Portal Alquímico"
         class="h-auto w-auto rounded-lg shadow-lg hover:scale-105 transition-transform duration-500"
       />

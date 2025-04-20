@@ -30,9 +30,9 @@
         >
           <!-- Ícone acima do menu -->
           <img
-            src="../public/favicon.svg"
+            src="../assets/images/alchemy.png"
             alt="Ícone Jornada"
-            class="w-72 h-w-72 mb-4 rounded-full shadow-lg hover:scale-105 transition-transform duration-500"
+            class="w-96 h-w-96 mb-4 rounded-full shadow-lg hover:scale-105 transition-transform duration-500"
           />
           <div class="flex flex-col items-center justify-center text-center">
             <h2 class="text-xl font-bold mb-4 antiga-bold">
@@ -42,7 +42,7 @@
               <li class="mb-2">
                 <NuxtLink
                   to="/nigredo"
-                  class="block font-bold antiga text-white px-4 py-2 rounded transition-transform duration-300 hover:scale-105 "
+                  class="block font-bold antiga text-white px-4 py-2 rounded transition-transform duration-300 hover:scale-105"
                 >
                   Nigredo - <span class="text-yellow-400">Putrefação</span>
                 </NuxtLink>
@@ -52,7 +52,7 @@
                   to="/albedo"
                   class="block font-bold antiga text-white px-4 py-2 rounded transition-transform duration-300 hover:scale-105"
                 >
-                  Albedo - <span class="text-yellow-400">Em Progresso</span>
+                  Albedo - <span class="text-yellow-400">Dissolução</span>
                 </NuxtLink>
               </li>
               <li class="mb-2">
@@ -93,15 +93,23 @@
           @click="openContent('Simbolo 1')"
           class="cursor-pointer p-4 transition-transform transform hover:scale-110"
         >
-          <!-- <img src="/images/icon1.png" alt="Símbolo Alquímico" class="w-16 h-16 mx-auto" /> -->
-          <p class="text-center mt-2">Símbolo 1</p>
+          <img
+            src="../assets/images/albedo.png"
+            alt="Símbolo Alquímico"
+            class="w-[25rem] h-w-64 mx-auto"
+          />
+          <p class="text-center mt-2 antiga-bold">Alkhimia</p>
         </div>
         <div
           @click="openContent('Simbolo 2')"
           class="cursor-pointer p-4 transition-transform transform hover:scale-110"
         >
-          <!-- <img src="/images/icon2.png" alt="Símbolo Alquímico" class="w-16 h-16 mx-auto" /> -->
-          <p class="text-center mt-2">Símbolo 2</p>
+          <img
+            src="../assets/images/baton.png"
+            alt="Símbolo Alquímico"
+            class="w-64 h-64 mx-auto"
+          />
+          <p class="text-center mt-2 antiga-bold">Magick</p>
         </div>
       </section>
 
@@ -109,7 +117,7 @@
       <section class="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8">
         <!-- Biblioteca Mágica -->
         <div class="bg-black bg-opacity-50 p-6 rounded shadow-lg">
-          <h2 class="text-2xl font-bold mb-4">Biblioteca Mágica</h2>
+          <h2 class="text-2xl font-bold mb-4 antiga-bold">Biblioteca Mágica</h2>
           <p>Explore manuscritos antigos e descobertas arcanas.</p>
           <ul class="mt-4 list-disc pl-5">
             <li>
@@ -126,7 +134,7 @@
         </div>
         <!-- Comunidade -->
         <div class="bg-black bg-opacity-50 p-6 rounded shadow-lg">
-          <h2 class="text-2xl font-bold mb-4">Comunidade</h2>
+          <h2 class="text-2xl font-bold mb-4 antiga-bold">Community</h2>
           <p>Participe em fóruns e chats para discutir segredos mágicos.</p>
           <a
             href="/comunidade"

@@ -83,7 +83,7 @@
         </NuxtLink>
       </nav>
 
-      <!-- Navbar Mobile: Ícone do menu à direita do h1 -->
+      <!-- Navbar Mobile -->
       <div class="flex md:hidden items-center justify-center mb-4 relative">
         <h1 ref="gradient" class="text-3xl antiga-bold mb-0 text-center w-full">
           Mystical Alchemy

@@ -44,10 +44,16 @@
           orbitando, ela observava desapegadamente como Trismegistus a
           aconselhou. Seus sonhos mais brilhante e coloridos, tão certa de si,
           suas motivações, são as mesmas do início? Não! São opostas e guerreiam
-          entre si, Ela reconheceu. Concentração, Harmonia, Foco e Vontade. A um
-          passo de ☿️.
+          entre si, Ela reconheceu. Concentração, Harmonia, Foco e Vontade.
         </p>
       </div>
+    </section>
+    <section class="flex justify-center py-9">
+      <img
+        src="../assets/images/nigredo-footer.png"
+        alt="Círculo Alquímico"
+        class="w-auto h-auto hover:scale-105 transition-transform duration-500 ease-in-out"
+      />
     </section>
   </main>
 </template>
