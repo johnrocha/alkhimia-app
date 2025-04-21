@@ -117,7 +117,7 @@
       <section class="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8">
         <!-- Biblioteca Mágica -->
         <div class="bg-black bg-opacity-50 p-6 rounded shadow-lg">
-          <h2 class="text-2xl font-bold mb-4 antiga-bold">Biblioteca Mágica</h2>
+          <h2 class="text-2xl font-bold mb-4 antiga-bold">Library</h2>
           <p>Explore manuscritos antigos e descobertas arcanas.</p>
           <ul class="mt-4 list-disc pl-5">
             <li>
