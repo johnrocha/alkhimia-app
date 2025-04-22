@@ -1,5 +1,11 @@
 <template>
   <div class="min-h-screen bg-black text-white relative">
+    <AlkhimiaModal
+      :isOpen="showAlkhimiaModal"
+      @close="showAlkhimiaModal = false"
+      :typeKnowledge="typeKnowledge"
+    />
+
     <!-- Botão para abrir o menu lateral (desktop only) -->
     <div
       v-if="!showAside"
@@ -163,12 +169,34 @@
   </div>
 </template>
 
-<script setup>
-import { ref } from "vue";
-const showAside = ref(false);
+<script>
+import AlkhimiaModal from '~/components/AlkhimiaModal.vue';
 
-function openContent(simbolo) {
-  alert(`teste: ${simbolo}`);
+export default {
+  components: {
+    AlkhimiaModal
+  },
+  data() {
+    return {
+      showAside: false,
+      showAlkhimiaModal: false,
+      typeKnowledge: ''
+    }
+  },
+  methods: {
+    openContent(simbolo) {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+      const knowledgeMap = {
+        "Simbolo 1": "alquimia",
+        "Simbolo 2": "magia"
+      };
+      const type = knowledgeMap[simbolo];
+      if (type) {
+        this.typeKnowledge = type;
+        this.showAlkhimiaModal = true;
+      }
+    }
+  }
 }
 </script>
 

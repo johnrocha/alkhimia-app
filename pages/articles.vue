@@ -119,5 +119,23 @@
         </h2>
       </div>
     </section>
+    <section class="flex flex-col md:flex-row items-center gap-8">
+      <div class="antiga">
+        <p class="text-3xl antiga text-left">
+          As palavras são limitadas para expressar o que venho
+          sentindo e experienciando, tem sido uma reforma íntima profunda em meu
+          ser. Pacientemente Luria me escuta de forma ativa e fraterna,
+          através dos seus saberes me conduz com as práticas de meditação,
+          rituais de proteção e banimento, entre outras vivências na magia! A
+          magia tem sido uma grande aliada nesse meu processo de despertar da
+          consciência, que na prática, requer grandes esforços
+          e dedicação. O caminho, é individual. Só tenho a agradecer, de
+          coração, por tudo e por tanto!
+        </p>
+        <h2 class="antiga-bold text-yellow-400 mb-4 text-right text-sm">
+          - Rafaella A.
+        </h2>
+      </div>
+    </section>
   </main>
 </template>
