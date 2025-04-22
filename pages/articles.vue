@@ -95,7 +95,7 @@
       />
     </section>
     <section
-      class="flex flex-col items-center justify-center py-12 text-center"
+      class="flex flex-col items-center justify-center py-12 text-center"   
     >
       <div class="max-w-3xl px-4 antiga">
         <h2 class="text-3xl font-bold mb-8 text-yellow-400">Neófitos</h2>
@@ -104,7 +104,7 @@
     <section class="flex flex-col md:flex-row items-center gap-8">
       <div class="antiga">
         <p class="text-3xl antiga text-left">
-          O conhecimento me traz estabilidade. Sinto-me tranquila ao saber que
+          "O conhecimento me traz estabilidade. Sinto-me tranquila ao saber que
           tenho egrégora me auxilia. A Metodologia é estruturante e permite um
           trabalho em diferentes níveis — espirituais, filosóficos e pessoais. É
           um convite para se compreender, a si mesmo e ao nosso entorno. Da
@@ -112,17 +112,24 @@
           estimulada no meu dia a dia, em uma busca por paz e em uma caminhada
           sincera. Eu sinto muita gratidão por isso. Essa jornada de aprendizado
           da Alkhimia se revelou como uma luz de esperança para um retorno à
-          unidade. Um trabalho teórico e prático, uma verdadeira harmonia.
+          unidade. Um trabalho teórico e prático, uma verdadeira harmonia."
         </p>
         <h2 class="antiga-bold text-yellow-400 mb-4 text-right text-sm">
           - Jade
         </h2>
       </div>
     </section>
+    <section class="flex justify-center py-9">
+      <img
+        src="../assets/images/alchemy.png"
+        alt="Círculo Alquímico"
+        class="w-auto h-auto hover:scale-105 transition-transform duration-500 ease-in-out"
+      />
+    </section>
     <section class="flex flex-col md:flex-row items-center gap-8">
       <div class="antiga">
         <p class="text-3xl antiga text-left">
-          As palavras são limitadas para expressar o que venho
+          "As palavras são limitadas para expressar o que venho
           sentindo e experienciando, tem sido uma reforma íntima profunda em meu
           ser. Pacientemente Luria me escuta de forma ativa e fraterna,
           através dos seus saberes me conduz com as práticas de meditação,
@@ -130,7 +137,7 @@
           magia tem sido uma grande aliada nesse meu processo de despertar da
           consciência, que na prática, requer grandes esforços
           e dedicação. O caminho, é individual. Só tenho a agradecer, de
-          coração, por tudo e por tanto!
+          coração, por tudo e por tanto!"
         </p>
         <h2 class="antiga-bold text-yellow-400 mb-4 text-right text-sm">
           - Rafaella A.

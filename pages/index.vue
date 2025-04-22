@@ -152,7 +152,11 @@
     </main>
 
     <div class="absolute bottom-8 left-8">
-      <!-- <img src="/images/candle.png" alt="Vela Tremeluzente" class="w-12 h-12 animate-pulse" /> -->
+      <img
+        src="../assets/images/candle.png"
+        alt="Vela Tremeluzente"
+        class="w-72 h-72 animate-pulse"
+      />
     </div>
     <!-- Footer: Botão para abrir o menu lateral (apenas mobile) -->
     <div
@@ -170,34 +174,34 @@
 </template>
 
 <script>
-import AlkhimiaModal from '~/components/AlkhimiaModal.vue';
+import AlkhimiaModal from "~/components/AlkhimiaModal.vue";
 
 export default {
   components: {
-    AlkhimiaModal
+    AlkhimiaModal,
   },
   data() {
     return {
       showAside: false,
       showAlkhimiaModal: false,
-      typeKnowledge: ''
-    }
+      typeKnowledge: "",
+    };
   },
   methods: {
     openContent(simbolo) {
       window.scrollTo({ top: 0, behavior: "smooth" });
       const knowledgeMap = {
         "Simbolo 1": "alquimia",
-        "Simbolo 2": "magia"
+        "Simbolo 2": "magia",
       };
       const type = knowledgeMap[simbolo];
       if (type) {
         this.typeKnowledge = type;
         this.showAlkhimiaModal = true;
       }
-    }
-  }
-}
+    },
+  },
+};
 </script>
 
 <style scoped>

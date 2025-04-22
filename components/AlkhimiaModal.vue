@@ -63,11 +63,14 @@ export default {
     description() {
       const type = this.typeKnowledge.toLowerCase();
       if (type === "alquimia") {
-        return `A Alquimia tende a reproduzir, nesta miniatura do Universo que é o frasco, a ação do Artesão Universal, tomando os elementos desorganizados e corrompidos, harmonizando-os e amalgamando-os, 
-        para conduzi-los até à perfeição final. Assim, por esse ensinamento experimental, esta Operação de longo cozimento que constitui a Grande Obra aurífera, coloca seu discípulos na condição de seguir, 
-        e reproduzir todo o processo misterioso pelo qual o Animador Divino cria seu "Dança de Amor". Tal é, verdadeiramente, o magistério filosófico por excelência, 
-        pois é somente a Alquimia que pode ensinar ao Humanos esses rudimentos experimentais e probatórios que o conduzirão para a Amor Absoluto. E é ela também, 
-        a mestra verdadeira que lhe dará, primeiramente um estado, depois uma fé.`;
+        return `A Alquimia tende a reproduzir, nesta miniatura do Universo que é o frasco, a ação do Artesão Universal, 
+        tomando os elementos desorganizados e corrompidos, harmonizando-os e amalgamando-os, 
+        para conduzi-los até à perfeição final. Assim, por esse ensinamento experimental, 
+        esta Operação de longo cozimento que constitui a Grande Obra aurífera, coloca seu discípulos na condição de seguir, 
+        e reproduzir todo o processo misterioso pelo qual o Animador Divino cria seu "Dança de Amor". 
+        Tal é, verdadeiramente, o magistério filosófico por excelência, 
+        pois é somente a Alquimia que pode ensinar ao Humanos esses rudimentos experimentais e probatórios que o conduzirão para a Amor Absoluto. 
+        E é ela também, a mestra verdadeira que lhe dará, primeiramente um estado, depois uma fé.`;
       } else if (type === "magia") {
         return `A Magia Cerimonial tende a espelhar a ordem cósmica no microcosmo consagrado do templo — espelho do Macrocosmo —, 
         tomando os elementos primordiais dispersos, consagrando-os por meio de simbologia sagrada sob a égide da hierarquia celeste e harmonizando-os em um rito solene, 
