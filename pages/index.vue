@@ -120,12 +120,12 @@
       </section>
 
       <!-- Seções: Biblioteca Mágica e Comunidade -->
-      <section class="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8">
+      <section class="mt-12 flex justify-around flex-wrap">
         <!-- Biblioteca Mágica -->
         <div class="bg-black bg-opacity-50 p-6 rounded shadow-lg">
-          <h2 class="text-2xl font-bold mb-4 antiga-bold">Library</h2>
-          <p>Explore manuscritos antigos e descobertas arcanas.</p>
-          <ul class="mt-4 list-disc pl-5">
+          <h2 class="text-center mt-2 antiga-bold">Library</h2>
+          <p class="antiga mt-2">Explore manuscritos antigos e descobertas arcanas.</p>
+          <ul class="mt-4 list-disc pl-5 antiga">
             <li>
               <a href="/biblioteca/manuscrito1" class="hover:underline"
                 >Manuscrito 1</a
@@ -140,18 +140,21 @@
         </div>
         <!-- Comunidade -->
         <div class="bg-black bg-opacity-50 p-6 rounded shadow-lg">
-          <h2 class="text-2xl font-bold mb-4 antiga-bold">Community</h2>
-          <p>Participe em fóruns e chats para discutir segredos mágicos.</p>
-          <a
-            href="/comunidade"
-            class="inline-block mt-4 px-4 py-2 border border-white rounded hover:bg-white hover:text-black transition-colors duration-300"
-            >Acessar Comunidade</a
-          >
+          <h2 class="text-center mt-2 antiga-bold">Community</h2>
+          <p class="text-center mt-2 antiga">Participe em fóruns e chats para discutir segredos mágicos.</p>
+          <small class="mt-4 flex md:justify-end">
+            <a
+              href="/contact"
+              class="antiga-bold inline-block px-6 py-3 bg-yellow-400 text-black font-bold rounded hover:bg-[#002fa7] hover:text-white hover:shadow-[0_0_15px_5px_rgba(234,179,8,0.5)] transition-all duration-300"
+            >
+              Acessar
+            </a>
+          </small>
         </div>
       </section>
     </main>
 
-    <div class="absolute bottom-8 left-8">
+    <div class="absolute bottom-8 left-8 hidden md:block">
       <img
         src="../assets/images/candle.png"
         alt="Vela Tremeluzente"
