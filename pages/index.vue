@@ -124,23 +124,22 @@
         <!-- Biblioteca Mágica -->
         <div class="bg-black bg-opacity-50 p-6 rounded shadow-lg">
           <h2 class="text-center mt-2 antiga-bold">Library</h2>
-          <p class="antiga mt-2">
-            Explore manuscritos antigos e descobertas arcanas.
-          </p>
           <ul class="mt-4 list-disc pl-5 antiga">
             <li>
               <a
-                href="/biblioteca/manuscrito1"
+                href="/manuscript1"
                 class="block font-bold antiga text-white px-4 py-2 rounded transition-transform duration-300 hover:scale-105"
-                >Manuscrito 1</a
               >
+                Nuptiae Chymicae
+              </a>
             </li>
             <li>
               <a
-                href="/biblioteca/manuscrito2"
+                href="/manuscript2"
                 class="block font-bold antiga text-white px-4 py-2 rounded transition-transform duration-300 hover:scale-105"
-                >Manuscrito 2</a
               >
+                Corpus Hermeticum
+              </a>
             </li>
           </ul>
         </div>
