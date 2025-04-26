@@ -42,7 +42,7 @@
           />
           <div class="flex flex-col items-center justify-center text-center">
             <h2 class="text-xl font-bold mb-4 antiga-bold">
-              Tractatus de alchemia
+              Jornada Alkhemica
             </h2>
             <ul>
               <li class="mb-2">
@@ -74,7 +74,7 @@
                   to="/rubedo"
                   class="block font-bold antiga text-white px-4 py-2 rounded transition-transform duration-300 hover:scale-105"
                 >
-                  Rubedo - <span class="text-yellow-400">Tintura</span>
+                  Rubedo - <span class="text-yellow-400">Completo</span>
                 </NuxtLink>
               </li>
             </ul>
