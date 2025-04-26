@@ -79,7 +79,7 @@
         <div class="text-center">
           <button
             type="submit"
-            class="px-8 py-3 bg-yellow-500 text-black font-bold rounded hover:bg-yellow-400 transition-colors duration-300"
+            class="antiga-bold inline-block px-6 py-3 bg-yellow-400 text-black font-bold rounded hover:bg-[#002fa7] hover:text-white hover:shadow-[0_0_15px_5px_rgba(234,179,8,0.5)] transition-all duration-300"
           >
             Enviar Mensagem
           </button>
