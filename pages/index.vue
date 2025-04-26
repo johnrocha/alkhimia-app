@@ -145,9 +145,9 @@
         </div>
         <!-- Comunidade -->
         <div class="bg-black bg-opacity-50 p-6 rounded shadow-lg">
-          <h2 class="text-center mt-2 antiga-bold">Community</h2>
+          <h2 class="text-center mt-2 antiga-bold">Blog</h2>
           <p class="text-center mt-2 antiga">
-            Participe em fóruns e chats para discutir segredos mágicos.
+            Observe as gemas que se formam em nossa jornada.
           </p>
           <small class="mt-4 flex md:justify-end">
             <a
