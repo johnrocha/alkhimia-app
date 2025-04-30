@@ -38,11 +38,11 @@
           pequenísssimas fissuras, a oportunidade genuína, ela salta aos olhos
           num brilho dourado intenso então o coração se preenche e ai se sabe.
           Se é. Neste momento posso ser luz. A luz refletida do sol. Antes eu
-          era um nada. Depois uma parte. Agora sou inteira. Mas sei que está, é só
-          uma oportunidade e que para encontrar Azoth eu devo seguir a ponte Lux
-          Vivens de fogo celeste e me alimentar do orvalho filosófico. Para algo
-          em mim... Não ser mais Eu. para algo em mim poder nascer, e então,
-          somente então. Estarei livre.
+          era um nada. Depois uma parte. Agora sou inteira. Mas sei que está, é
+          só uma oportunidade e que para encontrar Azoth eu devo seguir a ponte
+          Lux Vivens de fogo celeste e me alimentar do orvalho filosófico. Para
+          algo em mim... Não ser mais Eu. para algo em mim poder nascer, e
+          então, somente então. Estarei livre.
         </p>
       </div>
     </section>
@@ -53,6 +53,46 @@
         class="w-auto h-auto hover:scale-105 transition-transform duration-500 ease-in-out"
       />
     </section>
+    <footer
+      class="fixed bottom-6 left-6 right-6 z-50 flex justify-between pointer-events-none"
+    >
+      <a
+        href="/albedo"
+        class="flex items-center gap-1 px-3 py-2 shadow-lg group antiga bg-black text-yellow-400 font-bold rounded text-sm hover:bg-[#002fa7] hover:text-white hover:shadow-[0_0_15px_5px_rgba(234,179,8,0.5)] transition-all duration-300 antiga pointer-events-auto"
+        title="Voltar para Albedo"
+      >
+        <svg
+          class="w-4 h-4 group-hover:-translate-x-1 transition-transform duration-300"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M15 19l-7-7 7-7"
+          />
+        </svg>
+        <span>Albedo</span>
+      </a>
+      <a
+        href="/rubedo"
+        class="flex items-center gap-1 px-3 py-2 shadow-lg group antiga bg-black text-yellow-400 font-bold rounded text-sm hover:bg-[#002fa7] hover:text-white hover:shadow-[0_0_15px_5px_rgba(234,179,8,0.5)] transition-all duration-300 antiga pointer-events-auto"
+        title="Ir para Rubedo"
+      >
+        <span>Rubedo</span>
+        <svg
+          class="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+        >
+          <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+        </svg>
+      </a>
+    </footer>
   </main>
 </template>
 
