@@ -11,9 +11,7 @@
 
     <!-- Cabeçalho da seção -->
     <section class="text-center mb-12">
-      <h2 class="text-4xl antiga-bold text-yellow-400 mb-4">
-        Me invoque
-      </h2>
+      <h2 class="text-4xl antiga-bold text-yellow-400 mb-4">Me invoque</h2>
       <p class="text-lg antiga">
         Se interessou em algo e quer saber mais?<br />
         Preencha o formulário ou use um dos canais abaixo.
@@ -140,16 +138,13 @@ export default {
         assunto: "",
         mensagem: "",
       },
-      enviando: false,
     };
   },
   methods: {
     async handleSubmit() {
-      return; // @TODO: Implementar envio do formulário
-      this.enviando = true;
       try {
         await fetch(
-          "https://formsubmit.co/ajax/b9fd764f0a5276672cc3e3b5f03f4676@gmail.com",
+          "https://formsubmit.co/ajax/b9fd764f0a5276672cc3e3b5f03f4676",
           {
             method: "POST",
             headers: {
@@ -164,10 +159,10 @@ export default {
             }),
           }
         );
+        window.location.href = "/thanks";
       } catch (e) {
         alert("Ocorreu um erro ao enviar. Tente novamente.");
       }
-      this.enviando = false;
     },
   },
 };

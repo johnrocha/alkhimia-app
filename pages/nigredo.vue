@@ -53,29 +53,27 @@
         class="w-auto h-auto hover:scale-105 transition-transform duration-500 ease-in-out"
       />
     </section>
-  </main>
-  <footer class="fixed bottom-6 right-6 z-50">
-    <a
-      href="/albedo"
-      class="flex items-center gap-1 px-3 py-2 shadow-lg group antiga bg-black text-yellow-400 font-bold rounded text-sm hover:bg-[#002fa7] hover:text-white hover:shadow-[0_0_15px_5px_rgba(234,179,8,0.5)] transition-all duration-300 antiga"
-      title="Ir para Albedo"
-    >
-      <span>Albedo</span>
-      <svg
-        class="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300"
-        fill="none"
-        stroke="currentColor"
-        stroke-width="2"
-        viewBox="0 0 24 24"
+    <footer class="fixed bottom-6 right-6 z-50">
+      <a
+        href="/albedo"
+        class="flex items-center gap-1 px-3 py-2 shadow-lg group antiga bg-black text-yellow-400 font-bold rounded text-sm hover:bg-[#002fa7] hover:text-white hover:shadow-[0_0_15px_5px_rgba(234,179,8,0.5)] transition-all duration-300 antiga"
+        title="Ir para Albedo"
       >
-        <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
-      </svg>
-    </a>
-  </footer>
+        <span>Albedo</span>
+        <svg
+          class="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+        >
+          <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+        </svg>
+      </a>
+    </footer>
+  </main>
 </template>
 
-<script setup>
-import { NuxtLink } from "#components";
-</script>
+<script setup></script>
 
 <style lang="scss" scoped></style>
