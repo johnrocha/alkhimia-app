@@ -15,7 +15,7 @@
       <img
         src="../assets/images/journey.png"
         alt="Ícone Jornada"
-        class="w-20 h-20 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-52 lg:h-52 mb-2 rounded-full shadow-lg hover:scale-105 transition-transform duration-500"
+        class="w-20 h-20 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-52 lg:h-52 mb-2 rounded-full shadow-lg hover:scale-105 transition-transform duration-500 animate-pulse"
       />
     </div>
 
