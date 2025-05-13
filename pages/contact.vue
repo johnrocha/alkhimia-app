@@ -11,9 +11,7 @@
 
     <!-- Cabeçalho da seção -->
     <section class="text-center mb-12">
-      <h2 class="text-4xl antiga-bold text-yellow-400 mb-4">
-        Me invoque
-      </h2>
+      <h2 class="text-4xl antiga-bold text-yellow-400 mb-4">Me invoque</h2>
       <p class="text-lg antiga">
         Se interessou em algo e quer saber mais?<br />
         Preencha o formulário ou use um dos canais abaixo.
@@ -90,39 +88,49 @@
     <!-- Informações adicionais -->
     <section class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
       <div class="bg-black bg-opacity-50 p-6 rounded shadow-lg">
-        <h3 class="text-2xl font-semibold mb-2">Youtube</h3>
         <NuxtLink
-          to="https://URL_ADDRESS"
+          to="https://instagram.com/alquimistaluria"
           external
           class="hover:text-yellow-400 break-all"
+          target="_blank"
         >
-          Rede social 1
+          <img
+            src="../assets/images/instagram.png"
+            alt="Instagram"
+            class="inline-block w-12 h-12 antiga shadow-lg hover:scale-105 transition-transform duration-500"
+          />
         </NuxtLink>
       </div>
 
       <div class="bg-black bg-opacity-50 p-6 rounded shadow-lg">
-        <h3 class="text-2xl font-semibold mb-2">Telegram</h3>
         <NuxtLink
-          to="https://t.me/mysticalalchemy"
+          to="https://www.youtube.com/watch?v=B3w3dSwITV0&ab_channel=LVR141GN1"
           external
           target="_blank"
           rel="noopener"
           class="hover:text-yellow-400"
         >
-          Rede social 2
+          <img
+            src="../assets/images/you.png"
+            alt="Instagram"
+            class="inline-block w-12 h-12 antiga shadow-lg hover:scale-105 transition-transform duration-500"
+          />
         </NuxtLink>
       </div>
 
       <div class="bg-black bg-opacity-50 p-6 rounded shadow-lg">
-        <h3 class="text-2xl font-semibold mb-2">Instagram</h3>
         <NuxtLink
-          to="https://instagram.com/mysticalalchemy"
+          to="https://web.whatsapp.com/send?phone=5511958021168&text=Sauda%C3%A7%C3%B5es!%20Gostaria%20de%20conhecer%20caminho%20Herm%C3%A9tico"
           external
           target="_blank"
           rel="noopener"
-          class="hover:text-yellow-400"
+          class="hover:text-yellow-400 flex items-center justify-center gap-2"
         >
-          Rede social 3
+          <img
+            src="../assets/images/whats.png"
+            alt="Instagram"
+            class="inline-block w-12 h-12 antiga shadow-lg hover:scale-105 transition-transform duration-500"
+          />
         </NuxtLink>
       </div>
     </section>
@@ -140,16 +148,13 @@ export default {
         assunto: "",
         mensagem: "",
       },
-      enviando: false,
     };
   },
   methods: {
     async handleSubmit() {
-      return; // @TODO: Implementar envio do formulário
-      this.enviando = true;
       try {
         await fetch(
-          "https://formsubmit.co/ajax/b9fd764f0a5276672cc3e3b5f03f4676@gmail.com",
+          "https://formsubmit.co/ajax/b9fd764f0a5276672cc3e3b5f03f4676",
           {
             method: "POST",
             headers: {
@@ -164,10 +169,10 @@ export default {
             }),
           }
         );
+        window.location.href = "/thanks";
       } catch (e) {
         alert("Ocorreu um erro ao enviar. Tente novamente.");
       }
-      this.enviando = false;
     },
   },
 };
