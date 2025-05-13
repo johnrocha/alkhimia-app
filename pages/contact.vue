@@ -88,39 +88,49 @@
     <!-- Informações adicionais -->
     <section class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
       <div class="bg-black bg-opacity-50 p-6 rounded shadow-lg">
-        <h3 class="text-2xl font-semibold mb-2">Youtube</h3>
         <NuxtLink
-          to="https://URL_ADDRESS"
+          to="https://instagram.com/alquimistaluria"
           external
           class="hover:text-yellow-400 break-all"
+          target="_blank"
         >
-          Rede social 1
+          <img
+            src="../assets/images/instagram.png"
+            alt="Instagram"
+            class="inline-block w-12 h-12 antiga shadow-lg hover:scale-105 transition-transform duration-500"
+          />
         </NuxtLink>
       </div>
 
       <div class="bg-black bg-opacity-50 p-6 rounded shadow-lg">
-        <h3 class="text-2xl font-semibold mb-2">Telegram</h3>
         <NuxtLink
-          to="https://t.me/mysticalalchemy"
+          to="https://www.youtube.com/watch?v=B3w3dSwITV0&ab_channel=LVR141GN1"
           external
           target="_blank"
           rel="noopener"
           class="hover:text-yellow-400"
         >
-          Rede social 2
+          <img
+            src="../assets/images/you.png"
+            alt="Instagram"
+            class="inline-block w-12 h-12 antiga shadow-lg hover:scale-105 transition-transform duration-500"
+          />
         </NuxtLink>
       </div>
 
       <div class="bg-black bg-opacity-50 p-6 rounded shadow-lg">
-        <h3 class="text-2xl font-semibold mb-2">Instagram</h3>
         <NuxtLink
-          to="https://instagram.com/mysticalalchemy"
+          to="https://web.whatsapp.com/send?phone=5511958021168&text=Sauda%C3%A7%C3%B5es!%20Gostaria%20de%20conhecer%20caminho%20Herm%C3%A9tico"
           external
           target="_blank"
           rel="noopener"
-          class="hover:text-yellow-400"
+          class="hover:text-yellow-400 flex items-center justify-center gap-2"
         >
-          Rede social 3
+          <img
+            src="../assets/images/whats.png"
+            alt="Instagram"
+            class="inline-block w-12 h-12 antiga shadow-lg hover:scale-105 transition-transform duration-500"
+          />
         </NuxtLink>
       </div>
     </section>
