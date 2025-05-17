@@ -95,11 +95,35 @@
       />
     </section>
     <section
-      class="flex flex-col items-center justify-center py-12 text-center"   
+      class="flex flex-col items-center justify-center py-12 text-center"
     >
       <div class="max-w-3xl px-4 antiga">
         <h2 class="text-3xl font-bold mb-8 text-yellow-400">Neófitos</h2>
       </div>
+    </section>
+    <section class="flex flex-col md:flex-row items-center gap-8">
+      <div class="antiga">
+        <p class="text-3xl antiga text-left">
+          "Queria dizer que todos os exercícios, conhecimentos e vivências que
+          estamos fazendo está mudando completamente a estrutura dos meus dias.
+          Desde o primeiro dia eu me sinto mais direcionada quando olho pra
+          dentro de mim mesma, com calma, entendendo como cada sentir se
+          manifesta no meu corpo e ações. As práticas tem me levado á um nível
+          de concentração que está me ajudando com as minhas tarefas diárias e
+          mais simples, além de frequentemente sentir um calor em meu coração.
+          Me sinto grata por todos os ensinamentos até aqui!"
+        </p>
+        <h2 class="antiga-bold text-yellow-400 mb-4 text-right text-sm">
+          - Barbara
+        </h2>
+      </div>
+    </section>
+    <section class="flex justify-center py-9">
+      <img
+        src="../assets/images/alchemy.png"
+        alt="Círculo Alquímico"
+        class="w-auto h-auto hover:scale-105 transition-transform duration-500 ease-in-out"
+      />
     </section>
     <section class="flex flex-col md:flex-row items-center gap-8">
       <div class="antiga">
@@ -121,7 +145,7 @@
     </section>
     <section class="flex justify-center py-9">
       <img
-        src="../assets/images/alchemy.png"
+        src="../assets/images/depoiment.png"
         alt="Círculo Alquímico"
         class="w-auto h-auto hover:scale-105 transition-transform duration-500 ease-in-out"
       />
@@ -129,15 +153,14 @@
     <section class="flex flex-col md:flex-row items-center gap-8">
       <div class="antiga">
         <p class="text-3xl antiga text-left">
-          "As palavras são limitadas para expressar o que venho
-          sentindo e experienciando, tem sido uma reforma íntima profunda em meu
-          ser. Pacientemente Luria me escuta de forma ativa e fraterna,
-          através dos seus saberes me conduz com as práticas de meditação,
-          rituais de proteção e banimento, entre outras vivências na magia! A
-          magia tem sido uma grande aliada nesse meu processo de despertar da
-          consciência, que na prática, requer grandes esforços
-          e dedicação. O caminho, é individual. Só tenho a agradecer, de
-          coração, por tudo e por tanto!"
+          "As palavras são limitadas para expressar o que venho sentindo e
+          experienciando, tem sido uma reforma íntima profunda em meu ser.
+          Pacientemente Luria me escuta de forma ativa e fraterna, através dos
+          seus saberes me conduz com as práticas de meditação, rituais de
+          proteção e banimento, entre outras vivências na magia! A magia tem
+          sido uma grande aliada nesse meu processo de despertar da consciência,
+          que na prática, requer grandes esforços e dedicação. O caminho, é
+          individual. Só tenho a agradecer, de coração, por tudo e por tanto!"
         </p>
         <h2 class="antiga-bold text-yellow-400 mb-4 text-right text-sm">
           - Rafaella A.
