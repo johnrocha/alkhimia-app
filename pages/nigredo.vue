@@ -40,7 +40,7 @@
           catedral da alma, a ideia do que se aproxima a fez observar seus
           traumas, suas manchas mais nefastas, os discursos internos emergiam
           orbitando, ela observava desapegadamente como Trismegistus a
-          aconselhou. Seus sonhos mais brilhante e coloridos, tão certa de si,
+          aconselhou. Seus sonhos mais radiantes e coloridos, tão certa de si,
           suas motivações, são as mesmas do início? Não! São opostas e guerreiam
           entre si, Ela reconheceu. Concentração, Harmonia, Foco e Vontade.
         </p>
