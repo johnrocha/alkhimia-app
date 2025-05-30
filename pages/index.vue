@@ -145,16 +145,16 @@
         </div>
         <!-- Comunidade -->
         <div class="bg-black bg-opacity-50 p-6 rounded shadow-lg">
-          <h2 class="text-center mt-2 antiga-bold">Blog</h2>
-          <p class="text-center mt-2 antiga">
-            Observe as gemas que se formam em nossa jornada.
+          <h2 class="text-right mt-2 antiga-bold">Desperte seu poder mágico com um guia alquímico passo-a-passo</h2>
+          <p class="text-right mt-2 antiga">
+            Quero Agendar uma Sessão Gratuita.
           </p>
           <small class="mt-4 flex md:justify-end">
             <a
               href="/contact"
               class="antiga-bold inline-block px-6 py-3 bg-yellow-400 text-black font-bold rounded hover:bg-[#002fa7] hover:text-white hover:shadow-[0_0_15px_5px_rgba(234,179,8,0.5)] transition-all duration-300"
             >
-              Acessar
+              Iniciar
             </a>
           </small>
         </div>
