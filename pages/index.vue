@@ -147,7 +147,7 @@
         <div class="bg-black bg-opacity-50 p-6 rounded shadow-lg">
           <h2 class="text-right mt-2 antiga-bold">Desperte seu poder mágico com um guia alquímico passo-a-passo</h2>
           <p class="text-right mt-2 antiga">
-            Quero Agendar uma Sessão Gratuita.
+            Agendar uma Sessão Gratuita.
           </p>
           <small class="mt-4 flex md:justify-end">
             <a
