@@ -12,7 +12,7 @@
           active-class="text-yellow-400"
         >
           <span class="relative">
-            Home
+            Sanctum
             <span
               class="absolute bottom-0 left-1/2 h-0.5 bg-yellow-400 w-0 transition-all duration-300 -translate-x-1/2 group-hover:w-full"
             ></span>
@@ -31,7 +31,7 @@
           active-class="text-yellow-400"
         >
           <span class="relative">
-            About
+            Convite
             <span
               class="absolute bottom-0 left-1/2 h-0.5 bg-yellow-400 w-0 transition-all duration-300 -translate-x-1/2 group-hover:w-full"
             ></span>
@@ -50,7 +50,7 @@
           active-class="text-yellow-400"
         >
           <span class="relative">
-            Answers
+            Ritual
             <span
               class="absolute bottom-0 left-1/2 h-0.5 bg-yellow-400 w-0 transition-all duration-300 -translate-x-1/2 group-hover:w-full"
             ></span>
@@ -69,7 +69,7 @@
           active-class="text-yellow-400"
         >
           <span class="relative">
-            Contact
+            Invocação
             <span
               class="absolute bottom-0 left-1/2 h-0.5 bg-yellow-400 w-0 transition-all duration-300 -translate-x-1/2 group-hover:w-full"
             ></span>
@@ -86,7 +86,7 @@
       <!-- Navbar Mobile -->
       <div class="flex md:hidden items-center justify-center mb-4 relative">
         <h1 ref="gradient" class="text-3xl antiga-bold mb-0 text-center w-full">
-          Mystical Alchemy
+          Alchemy Art
         </h1>
         <button
           class="absolute right-4"
@@ -165,7 +165,7 @@
           ref="gradient"
           class="text-5xl antiga-bold mb-2 shadow-lg hover:scale-105 transition-transform duration-300"
         >
-          <NuxtLink to="/"> Mystical Alchemy </NuxtLink>
+          <NuxtLink to="/"> Magick & Alkhemya  </NuxtLink>
         </h1>
       </div>
     </header>

@@ -12,6 +12,12 @@
       class="fixed top-4 right-4 z-30 px-2 py-2 shadow transition cursor-pointer hidden md:block"
       @click="showAside = true"
     >
+      <div class="text-center text-yellow-400 antiga text-sm mb-1 hover:scale-105 transition-transform duration-500 animate-pulse">
+        Fundir
+        <br> chumbo
+        <br> em
+        <br> ouro
+      </div>
       <img
         src="../assets/images/journey.png"
         alt="Ícone Jornada"
@@ -42,7 +48,7 @@
           />
           <div class="flex flex-col items-center justify-center text-center">
             <h2 class="text-xl font-bold mb-4 antiga-bold">
-              Tractatus de alchemia
+              Tractatus de alkhemia
             </h2>
             <ul>
               <li class="mb-2">
