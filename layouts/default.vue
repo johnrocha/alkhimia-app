@@ -86,7 +86,7 @@
       <!-- Navbar Mobile -->
       <div class="flex md:hidden items-center justify-center mb-4 relative">
         <h1 ref="gradient" class="text-3xl antiga-bold mb-0 text-center w-full">
-          Alchemy Art
+          Magick & Alkhemya
         </h1>
         <button
           class="absolute right-4"
@@ -127,7 +127,7 @@
                   to="/"
                   class="block text-white font-bold antiga px-4 py-2 rounded transition-transform duration-300 hover:scale-105 hover:bg-yellow-400 hover:text-black text-center"
                   @click="showMobileMenu = false"
-                  >Home</NuxtLink
+                  >Sanctum</NuxtLink
                 >
               </li>
               <li>
@@ -135,7 +135,7 @@
                   to="/about"
                   class="block text-white font-bold antiga px-4 py-2 rounded transition-transform duration-300 hover:scale-105 hover:bg-yellow-400 hover:text-black text-center"
                   @click="showMobileMenu = false"
-                  >About</NuxtLink
+                  >Convite</NuxtLink
                 >
               </li>
               <li>
@@ -143,7 +143,7 @@
                   to="/articles"
                   class="block text-white font-bold antiga px-4 py-2 rounded transition-transform duration-300 hover:scale-105 hover:bg-yellow-400 hover:text-black text-center"
                   @click="showMobileMenu = false"
-                  >Answers</NuxtLink
+                  >Ritual</NuxtLink
                 >
               </li>
               <li>
@@ -151,7 +151,7 @@
                   to="/contact"
                   class="block text-white font-bold antiga px-4 py-2 rounded transition-transform duration-300 hover:scale-105 hover:bg-yellow-400 hover:text-black text-center"
                   @click="showMobileMenu = false"
-                  >Contact</NuxtLink
+                  >Invocação</NuxtLink
                 >
               </li>
             </ul>
@@ -165,7 +165,7 @@
           ref="gradient"
           class="text-5xl antiga-bold mb-2 shadow-lg hover:scale-105 transition-transform duration-300"
         >
-          <NuxtLink to="/"> Magick & Alkhemya  </NuxtLink>
+          <NuxtLink to="/"> Magick & Alkhemya </NuxtLink>
         </h1>
       </div>
     </header>
