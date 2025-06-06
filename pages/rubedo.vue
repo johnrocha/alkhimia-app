@@ -64,6 +64,30 @@
         class="w-auto h-auto hover:scale-105 transition-transform duration-500 ease-in-out"
       />
     </section>
+    <footer
+      class="fixed bottom-6 left-6 right-6 z-50 flex justify-between pointer-events-none"
+    >
+      <a
+        href="/citrinitas"
+        class="flex items-center gap-1 px-3 py-2 shadow-lg group antiga bg-black text-yellow-400 font-bold rounded text-sm hover:bg-[#002fa7] hover:text-white hover:shadow-[0_0_15px_5px_rgba(234,179,8,0.5)] transition-all duration-300 antiga pointer-events-auto"
+        title="Voltar para Nigredo"
+      >
+        <svg
+          class="w-4 h-4 group-hover:-translate-x-1 transition-transform duration-300"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M15 19l-7-7 7-7"
+          />
+        </svg>
+        <span>Citrinitas</span>
+      </a>
+    </footer>
   </main>
 </template>
 
