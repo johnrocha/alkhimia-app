@@ -22,7 +22,7 @@
         <img
           v-else-if="typeKnowledge === 'magia'"
           src="../assets/images/baton.png"
-          alt="Alquimia"
+          alt="Magia"
           class="w-full h-96 object-contain mb-6"
         />
         <h3 class="text-3xl antiga-bold text-yellow-400 mb-4">{{ title }}</h3>
@@ -49,7 +49,6 @@ export default {
   computed: {
     imageSrc() {
       const type = this.typeKnowledge.toLowerCase();
-      console.log(type, "type");
       if (type === "alquimia") {
         return "../assets/images/albedo.png";
       } else if (type === "magia") {
