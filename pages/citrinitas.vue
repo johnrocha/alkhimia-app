@@ -33,7 +33,7 @@
           a docibilidade ao fogo e o brilho que reflete a clareza e a
           iluminação. É tão fácil se perder. Passei anos tentando construir a
           melhor versão de mim mesma, vejo agora quão ingênua sou ao deixar
-          passar o que o orvalho me sussruava carinhosamente em segredo em todos
+          passar o que o orvalho me sussurrava carinhosamente em segredo em todos
           os nossos encontros. Tudo está incessantemente mudando e há apenas
           pequenísssimas fissuras, a oportunidade genuína, ela salta aos olhos
           num brilho dourado intenso então o coração se preenche e ai se sabe.
