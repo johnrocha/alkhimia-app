@@ -85,11 +85,14 @@
 
       <!-- Navbar Mobile -->
       <div class="flex md:hidden items-center justify-center mb-4 relative">
-        <h1 ref="gradient" class="text-3xl antiga-bold mb-0 text-center w-full">
+        <h1
+          ref="gradient"
+          class="text-3xl antiga-bold mb-0 text-center w-full pr-16"
+        >
           Magick & Alkhemya
         </h1>
         <button
-          class="absolute right-4"
+          class="absolute right-4 top-1/2 -translate-y-1/2"
           @click="showMobileMenu = true"
           aria-label="Abrir menu"
         >
