@@ -19,3 +19,13 @@
     </section>
   </main>
 </template>
+
+<script setup>
+useSeoMeta({
+  title: "Obrigado - Alkhimia",
+  ogTitle: "Obrigado - Alkhimia",
+  description: "Mensagem de agradecimento ap\u00f3s o envio do formul\u00e1rio.",
+  ogDescription: "Mensagem de agradecimento ap\u00f3s o envio do formul\u00e1rio."
+})
+</script>
+

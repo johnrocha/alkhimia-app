@@ -190,11 +190,20 @@
 </template>
 
 <script>
+import { useSeoMeta } from '#imports'
 import AlkhimiaModal from "~/components/AlkhimiaModal.vue";
 
 export default {
   components: {
     AlkhimiaModal,
+  },
+  setup() {
+    useSeoMeta({
+      title: "Sanctum - Alkhimia",
+      ogTitle: "Sanctum - Alkhimia",
+      description: "P\u00e1gina inicial do Alkhimia e acesso \u00e0 Grande Obra.",
+      ogDescription: "P\u00e1gina inicial do Alkhimia e acesso \u00e0 Grande Obra."
+    })
   },
   data() {
     return {

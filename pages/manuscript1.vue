@@ -90,6 +90,13 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+useSeoMeta({
+  title: "Nuptiae Chymicae - Manuscrito",
+  ogTitle: "Nuptiae Chymicae - Manuscrito",
+  description: "Links para acesso ao manuscrito alqu\u00edmico Nuptiae Chymicae.",
+  ogDescription: "Links para acesso ao manuscrito alqu\u00edmico Nuptiae Chymicae."
+})
+</script>
 
 <style lang="scss" scoped></style>

@@ -91,6 +91,13 @@
   </main>
 </template>
 
-<script setup></script>
+<script setup>
+useSeoMeta({
+  title: "Rubedo - Alkhimia",
+  ogTitle: "Rubedo - Alkhimia",
+  description: "Etapa final da Grande Obra, a uni\u00e3o perfeita do esp\u00edrito.",
+  ogDescription: "Etapa final da Grande Obra, a uni\u00e3o perfeita do esp\u00edrito."
+})
+</script>
 
 <style lang="scss" scoped></style>

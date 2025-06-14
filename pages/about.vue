@@ -183,3 +183,13 @@
     </div>
   </div>
 </template>
+
+<script setup>
+useSeoMeta({
+  title: "Sobre - Alkhimia",
+  ogTitle: "Sobre - Alkhimia",
+  description: "Saiba mais sobre a jornada alqu\u00edmica e o trabalho de Alquimista Luria.",
+  ogDescription: "Saiba mais sobre a jornada alqu\u00edmica e o trabalho de Alquimista Luria."
+})
+</script>
+

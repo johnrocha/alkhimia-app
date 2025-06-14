@@ -74,6 +74,13 @@
   </main>
 </template>
 
-<script setup></script>
+<script setup>
+useSeoMeta({
+  title: "Nigredo - Alkhimia",
+  ogTitle: "Nigredo - Alkhimia",
+  description: "Primeira etapa da Grande Obra, a putrefa\u00e7\u00e3o do ser.",
+  ogDescription: "Primeira etapa da Grande Obra, a putrefa\u00e7\u00e3o do ser."
+})
+</script>
 
 <style lang="scss" scoped></style>

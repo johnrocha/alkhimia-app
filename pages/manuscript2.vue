@@ -36,6 +36,13 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+useSeoMeta({
+  title: "Corpus Hermeticum - Manuscrito",
+  ogTitle: "Corpus Hermeticum - Manuscrito",
+  description: "Links para estudar o Corpus Hermeticum e a T\u00e1bua de Esmeralda.",
+  ogDescription: "Links para estudar o Corpus Hermeticum e a T\u00e1bua de Esmeralda."
+})
+</script>
 
 <style lang="scss" scoped></style>
