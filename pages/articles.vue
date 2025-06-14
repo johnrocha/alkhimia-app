@@ -169,3 +169,13 @@
     </section>
   </main>
 </template>
+
+<script setup>
+useSeoMeta({
+  title: "Respostas - Alkhimia",
+  ogTitle: "Respostas - Alkhimia",
+  description: "Depoimentos e experi\u00eancias de quem trilhou o caminho alqu\u00edmico.",
+  ogDescription: "Depoimentos e experi\u00eancias de quem trilhou o caminho alqu\u00edmico."
+})
+</script>
+

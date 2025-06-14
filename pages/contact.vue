@@ -138,8 +138,18 @@
 </template>
 
 <script>
+import { useSeoMeta } from '#imports'
+
 export default {
   name: "ContactPage",
+  setup() {
+    useSeoMeta({
+      title: "Contato - Alkhimia",
+      ogTitle: "Contato - Alkhimia",
+      description: "Formul\u00e1rio para contato e agendamentos de leitura.",
+      ogDescription: "Formul\u00e1rio para contato e agendamentos de leitura."
+    })
+  },
   data() {
     return {
       form: {

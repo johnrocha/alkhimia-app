@@ -94,6 +94,13 @@
   </main>
 </template>
 
-<script setup></script>
+<script setup>
+useSeoMeta({
+  title: "Albedo - Alkhimia",
+  ogTitle: "Albedo - Alkhimia",
+  description: "Segundo est\u00e1gio da Grande Obra, a purifica\u00e7\u00e3o pela dissolu\u00e7\u00e3o.",
+  ogDescription: "Segundo est\u00e1gio da Grande Obra, a purifica\u00e7\u00e3o pela dissolu\u00e7\u00e3o."
+})
+</script>
 
 <style lang="scss" scoped></style>

@@ -96,6 +96,13 @@
   </main>
 </template>
 
-<script setup></script>
+<script setup>
+useSeoMeta({
+  title: "Citrinitas - Alkhimia",
+  ogTitle: "Citrinitas - Alkhimia",
+  description: "Terceira fase alqu\u00edmica, a ilumina\u00e7\u00e3o e a sublima\u00e7\u00e3o.",
+  ogDescription: "Terceira fase alqu\u00edmica, a ilumina\u00e7\u00e3o e a sublima\u00e7\u00e3o."
+})
+</script>
 
 <style lang="scss" scoped></style>
